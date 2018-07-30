@@ -3,6 +3,9 @@ body {
   width: 100%;
   margin: 0;
   height: 100vh; /* Jak cos to wyjebac (scroll) */
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+
 }
 
 .container {
@@ -13,6 +16,6 @@ body {
 }
 
 section {
-  width: 1000px;
-  background-color: pink;
+  width: 1080px;
+ 
 }

@@ -1,0 +1,22 @@
+.header1 {
+  text-align: center;
+}
+
+.title1 {
+}
+
+.hero-video-form1 {
+display: flex;
+    
+}
+
+.video1 {
+  width: 66%;
+}
+
+.form1 {
+  width: 33%;
+  display: flex;
+  flex: block;
+
+}
