@@ -5,11 +5,15 @@ body {
   height: 100vh; /* Jak cos to wyjebac (scroll) */
   font-family: Lato, sans-serif;
   font-weight: 300;
+  /* Domyślne kolory */
+  --headerColor: #4c4c4c;
+  --divanteBlue: #003FA4;
+  --divanteGreen: #1EED7F;
 
 }
 
 .container {
- display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
@@ -17,5 +21,6 @@ body {
 
 section {
   width: 1080px;
- 
+  
 }
+
