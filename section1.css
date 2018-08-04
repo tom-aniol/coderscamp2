@@ -8,13 +8,11 @@
 .hero-video-form1 {
   display: flex;
   margin-top: 20px;
-
 }
 
 .video1 {
   width: 66%;
   margin: 20px;
-  
 }
 
 .form1 {
@@ -37,11 +35,8 @@ h4 {
 }
 
 .message1 {
-justify-content: center;
- 
+  justify-content: center;
 }
-
-
 
 .message-bg {
   font-size: 16px;
@@ -54,7 +49,6 @@ justify-content: center;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 .form1 {
@@ -64,15 +58,13 @@ justify-content: center;
   align-items: center;
   height: 400px;
   border-radius: 5px;
-  box-shadow: 4px #333333; 
+  box-shadow: 4px #333333;
   margin: 20px;
-  
 }
 
 .fa-envelope {
   font-size: 40px;
 }
-
 
 .form1 h4 {
   background-color: var(--divanteBlue);
@@ -80,12 +72,8 @@ justify-content: center;
   margin-top: 10px;
 }
 
-
-
-
-input[type=text],
-input[type=email]
-{
+input[type="text"],
+input[type="email"] {
   width: 250px;
   background-color: #fff;
   border: 1px solid #dedede;
@@ -95,28 +83,21 @@ input[type=email]
   box-sizing: border-box;
   text-align: left;
   outline: none;
- margin-top: 5px;
-
+  margin-top: 5px;
 }
 
-input[type=text]:focus,
-input[type=email]:focus
-{
-box-shadow: 0px 0px 10px 2px #7aa8ff;
-background-color: #7aa8ff;
-color: #ffffff;
-
+input[type="text"]:focus,
+input[type="email"]:focus {
+  box-shadow: 0px 0px 10px 2px #7aa8ff;
+  background-color: #7aa8ff;
+  color: #ffffff;
 }
 
-input:focus::-webkit-input-placeholder 
-{
+input:focus::-webkit-input-placeholder {
   color: #fff;
 }
 
-
-
-input[type=submit]
-{
+input[type="submit"] {
   width: 200px;
   background-color: var(--divanteGreen);
   border: none;
@@ -127,18 +108,11 @@ input[type=submit]
   outline: none;
   font-weight: 600;
   margin-top: 10px;
-
 }
 
-input[type=submit]:hover
-{
+input[type="submit"]:hover {
   background-color: #449178;
   border: 2px solid #fff;
   color: #fff;
   cursor: pointer;
-}
-
-
-.section2 {
-  color: red;
 }
