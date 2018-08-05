@@ -102,7 +102,7 @@ a.button-signup-basic-4:hover {
     border: 1px solid rgb(248, 191, 100);
 }
 
-i {
+ul > li > i {
     color: rgb(248, 191, 100);
     margin-bottom: 10px;
     margin-right: 6px;
