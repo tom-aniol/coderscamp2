@@ -8,6 +8,8 @@
     background-color: #f4f5f7;
     width: 100%;
     height: 500px;
+    perspective: 2px;
+    overflow-x: hidden;
 }
 
 #header5
@@ -15,6 +17,7 @@
     text-align:center;
     font-size:18px;
     height:130px;
+    position: relative;
 }
 
 #main-header5
@@ -31,13 +34,26 @@
     margin-top: 5px;
 }
 
+.parallax-background
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateZ(-1px) scale(1.5);
+    background-image: url('forest.jpg');
+    background-position: center;
+}
+
 #question-box5
 {
     width: 100%;
     height: 200px;
     display:flex;
-    justify-content: center;        
-
+    justify-content: center;     
+    position: relative;   
 }
 
 .inside-box
