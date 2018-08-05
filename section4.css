@@ -16,13 +16,13 @@
 
 .pricing-grid4 {
     justify-content: center;
-    max-width: 1080px;
+    max-width: 100%;
     display: flex;
     align-items: flex-start; 
 }
 
 .pricing-box4 {
-    width: 23.3%;
+    width: 33.3%;
     padding: 4px;
     display: inline-block;
     /*border: 1px solid #c8c8c8;*/
@@ -42,36 +42,68 @@
 
 .pricing4 li {
     border-bottom: 1px solid #f2efef;
-    padding: 11px;
+    padding: 13px;
     text-align: center;
+    justify-content: center;
+    
+
 }
 
 .pricing4 li.type-pricing4 {
-    padding: 30px;
+    padding: 25px;
     text-transform: uppercase;
     font-weight: 500;
-    font-size:20px;
-    
+    font-size:25px;
 }
 
 .pricing4 li.price4 {
     font-weight: 400;
-    background-color:lightgray;
+    background-color:#f2f2f2;
+    padding: 25px;
+    font-size: 18px;
 }
 
 
 a {
     background-color: rgb(80, 138, 237);
     border: 1px solid rgb(80, 138, 237);
-    text-align: center;
+    justify-content: center;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     color: white;
     padding: 10px 95px;
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: 600;
     display: flex;
+   
 }
 
+a:hover {
+    background-color: rgb(100, 158, 255);
+}
 
+.signup-link-basic{
+    background-color:#f2f2f2;
+
+}
+
+.signup-link{
+    background-color:#f2f2f2;
+}
+
+a.button-signup-basic-4 {
+    background-color:rgb(226, 150, 27);
+    border: 1px solid rgb(226, 150, 27);
+}
+
+a.button-signup-basic-4:hover {
+    background-color:rgb(248, 191, 100);
+    border: 1px solid rgb(248, 191, 100);
+}
+
+i {
+    color: rgb(248, 191, 100);
+    margin-bottom: 10px;
+    margin-right: 6px;
+}
