@@ -1,8 +1,10 @@
 .header1 {
   text-align: center;
+  
 }
 
 .title1 {
+
 }
 
 .hero-video-form1 {
@@ -20,18 +22,19 @@
   display: flex;
 }
 
-h1 {
-  font-size: 36px;
+.title1 > h1 {
+  font-size: 25px;
   color: var(--headerColor);
-  font-weight: 400;
+  font-weight: 600;
   margin-top: 20px;
 }
 
-h4 {
-  font-size: 18px;
+.title1 h4 {
+  font-weight: 300;
+  font-size: 25px;
   margin-top: 20px;
   color: var(--headerColor);
-  font-weight: 400;
+  
 }
 
 .message1 {
@@ -98,11 +101,11 @@ input:focus::-webkit-input-placeholder {
 }
 
 input[type="submit"] {
-  width: 200px;
+  width: 250px;
   background-color: var(--divanteGreen);
   border: none;
-  border-radius: 20px;
-  color: #3f3f33;
+  border-radius: 5px;
+  color: #fff;
   height: 30px;
   font-size: 14px;
   outline: none;
@@ -111,8 +114,9 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #449178;
-  border: 2px solid #fff;
+  background-color: rgb(248, 191, 100);
+  opacity: 0.9;
+  border: 0;
   color: #fff;
   cursor: pointer;
 }
