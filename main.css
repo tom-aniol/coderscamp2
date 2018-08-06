@@ -6,8 +6,8 @@ body {
   font-weight: 300;
   /* Domyślne kolory */
   --headerColor: #4c4c4c;
-  --divanteBlue: #003fa4;
-  --divanteGreen: #1eed7f;
+  --divanteBlue: #508aed;
+  --divanteGreen: #e2961b;
 }
 
 .container {
