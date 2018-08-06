@@ -1,10 +1,5 @@
 .header1 {
   text-align: center;
-  
-}
-
-.title1 {
-
 }
 
 .hero-video-form1 {
@@ -34,7 +29,6 @@
   font-size: 25px;
   margin-top: 20px;
   color: var(--headerColor);
-  
 }
 
 .message1 {
@@ -119,4 +113,25 @@ input[type="submit"]:hover {
   border: 0;
   color: #fff;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    width: 100%;
+  }
+
+  .hero-video-form1 {
+    flex-direction: column;
+  }
+  .form1 {
+    width: 100%;
+    display: flex;
+    margin: 0;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 80%;
+  }
 }

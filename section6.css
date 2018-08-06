@@ -82,3 +82,16 @@ footer {
 
 }
 
+@media screen and (max-width: 768px) {
+    .both {
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonials {
+    height: auto;
+    
+}
+    .quote {
+        width: 80%;
+    }
+}

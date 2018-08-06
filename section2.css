@@ -13,14 +13,13 @@
   justify-content: center;
 }
 
- .featured ol {
- 
+.featured ol {
   font-size: 36px;
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
- .featured ol > li {
+.featured ol > li {
   height: 48px;
   width: 100px;
   display: inline-block;
@@ -28,7 +27,7 @@
   color: #dadad9;
 }
 
- .featured ol > li:hover {
+.featured ol > li:hover {
   cursor: pointer;
   color: #4c4c4c !important;
 }
@@ -47,7 +46,8 @@
 
 .key-features {
   display: inline-block;
-  width: 1080px;
+  width: 100%;
+  max-width: 1080px;
   margin-bottom: 40px;
 }
 
@@ -69,25 +69,25 @@
   font-size: 20px;
 }
 
-.feature-list{
-  display:flex;
+.feature-list {
+  display: flex;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  
+  transition: all 1s linear;
 }
 
-.feature-list .fa-star{
-  color:#e6b211;
+.feature-list .fa-star {
+  color: #e6b211;
   font-size: 40px;
 }
-.feature-list .fa-chart-line{
-  color:#70c14a;
+.feature-list .fa-chart-line {
+  color: #70c14a;
   font-size: 40px;
 }
-.feature-list .fa-thumbs-up{
-  color:#4983c4;
+.feature-list .fa-thumbs-up {
+  color: #4983c4;
   font-size: 40px;
 }
 
@@ -101,13 +101,12 @@
   justify-content: center;
 }
 
- .numbers ol {
+.numbers ol {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  
 }
- .numbers ol > li {
+.numbers ol > li {
   height: 48px;
   width: 100px;
   display: inline-block;
@@ -115,17 +114,39 @@
   color: #4c4c4c;
   line-height: 1px;
   font-weight: 400;
-  
-
- 
 }
 
 .countnumber {
- font-size: 24px;
+  font-size: 24px;
 }
 
 .countdesc {
- font-size: 18px;
- justify-items: center;
+  font-size: 18px;
+  justify-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .feature-list {
+    flex-direction: column;
+    transition: all 1s linear;
+  }
+  .numbers2 {
+    box-sizing: border-box;
+    width: 30% !important;
+  }
+  .featured ol > li:first-child {
+    width: 100%;
+    right: 0;
+  }
+  .key-features {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 908px) {
+  .numbers2 {
+    box-sizing: border-box;
+    width: 30% !important;
+  }
+}
