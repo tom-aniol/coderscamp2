@@ -64,7 +64,7 @@
 }
 
 
-a {
+.pricing4 li.signup-link a {
     background-color: rgb(80, 138, 237);
     border: 1px solid rgb(80, 138, 237);
     justify-content: center;
@@ -76,28 +76,35 @@ a {
     text-transform: uppercase;
     font-weight: 600;
     display: flex;
-   
 }
 
-a:hover {
+.pricing4 li.signup-link-basic a {
+    background-color:rgb(226, 150, 27);
+    border: 1px solid rgb(226, 150, 27);
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 10px 95px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+}
+
+.pricing4 li.signup-link a:hover {
     background-color: rgb(100, 158, 255);
 }
 
 .signup-link-basic{
     background-color:#f2f2f2;
-
 }
 
 .signup-link{
     background-color:#f2f2f2;
 }
 
-a.button-signup-basic-4 {
-    background-color:rgb(226, 150, 27);
-    border: 1px solid rgb(226, 150, 27);
-}
-
-a.button-signup-basic-4:hover {
+.pricing4 li.signup-link-basic a:hover {
     background-color:rgb(248, 191, 100);
     border: 1px solid rgb(248, 191, 100);
 }
