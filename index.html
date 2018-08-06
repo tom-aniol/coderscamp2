@@ -9,6 +9,8 @@
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,900&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="./main.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
 
     <!-- Z drugiej prezentacji - brak skalowania -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -133,21 +135,22 @@
             <div class="numbers">
                 <ol>
                     <li class="numbers2">
-                        <p class="count">948</p>
+                        <p class="countnumber"><span class="count">948</span></p>
                         <p class="countdesc">Visits</p>
                     </li>
                     <li class="numbers2">
-                        <p class="count">478</p>
+                        <p class="countnumber"><span class="count">478</span></p>
                         <p class="countdesc">Downloads</p>
                     </li>
                     <li class="numbers2">
-                        <p class="count">347</p>
+                        <p class="countnumber"><span class="count">347</span></p>
                         <p class="countdesc">Members</p>
                     </li>
                     <li class="numbers2">
-                        <p class="count">87</p>
+                        <p class="countnumber"><span class="count">87</span></p>
                         <p class="countdesc">Products</p>
                     </li>
+                    
         
         
                 </ol>
@@ -351,6 +354,24 @@
             <h1> Artur </h1>
 
         </section>
+        </div>
+        <div>
+            <script>
+            $('.count').each(function () {
+                    $(this).prop('Counter', 0).animate({
+                        Counter: $(this).text()
+                    }, {
+                            duration: 4000,
+                            easing: 'swing',
+                            step: function (now) {
+                                $(this).text(Math.ceil(now));
+                            }
+                        });
+                });
+            </script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="jquery-3.3.1.min.js"></script>
         </div>
 </body>
 
